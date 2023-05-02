@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*:before,*:after{
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 20px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0; border: 0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+body{
+    color: #273D46;
+    background:  #e5e4e4 url(../images/background.png) 50% 100px no-repeat;
+    font-family: "Times New Roman", sans-serif;
+}
+
+.title{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+    line-height: calc(14 / 40 * 100%);
+    padding: 20px;
+    opacity: 0.2;
+}
+.sub-title{
+    font-size: 36px;
+    text-align: center;
+    padding: 0 20px 72px 0;
+}
+img{
+    width: 820px;
+    height: 540px;
+    border: 10px solid #fff;
+    margin: 0 20px 86px 345px;
+    box-shadow: 5px 5px 10px;
+}
+.text {
+    text-align: justify;
+    font-size: 24px;
+    line-height: 167%;
+    margin: 0 0 0 425px;
+}
+.first_text{
+    margin: 0 0 50px 0;
+}
+.adventages {
+    margin: 58px 0 0 0;
+}
+.adventages li{
+    margin: 0 0 25px 0;
+    padding: 0 0 0 425px;
+    background: url("../images/li.svg") 400px 5px  no-repeat;
+}
+.italic{
+    font-style: italic;
+}
+.green{
+    font-style: italic;
+    color: #80B7B3;
+}
+.bold{
+    font-weight: bold;
+}
+.cross{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+.etc{
+    background-color: #80B7B3;
+    color: #ffffff;
+    border-radius: 25%;
+    width: 50px;
+    height: 30px;
+}
+.button{
+    display: inline-block;
+    height: 44px;
+    line-height: 44px;
+    padding: 0 30px;
+    margin: 20px 0 20px 425px;
+    background-color: #80B7B3;
+    text-transform: uppercase;
+    color: #ffffff;
+    border-radius: 24px;
+    box-shadow: 0 6px 40px;'#80B7B3';
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    letter-spacing: 2.8px;
+}
+.button span{
+    padding: 0 30px 0 0;
+    background: url(../images/pointer.svg) right no-repeat;
+}
